@@ -54,6 +54,11 @@ A few ***important*** notes before you start:
 
 -   The username & password for your lab machine is: ibmcloud & IBM\_Cloud\_2016
 
+- If Atom editor is not installed install it via the following:
+-       # sudo add-apt-repository ppa:webupd8team/atom
+-       # sudo apt-get update
+-       # sudo apt-get install atom
+
 -   When working through the lab you may see slightly different responses being returned from your CLI than those printed as part of these instructions.
     > You do not need to worry about this. The reason is that you may use a different namespace than the one we used when generating this document; the differences will be minor and only result in some name-prefixing.
 
