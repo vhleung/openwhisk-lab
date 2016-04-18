@@ -387,6 +387,7 @@ Enter the following in a terminal:
 
 And then the following:
 `$ wsk action get --summary /whisk.system/weather/forecast`
+
 `action /whisk.system/weather/forecast: Weather.com 10-day forecast`
 `    (params: latitude longitude apiKey)`
 
@@ -469,6 +470,7 @@ Enter the following in a terminal:
 
 And then the following:
 `$ wsk action get --summary /whisk.system/watson/translate`
+
 `action /whisk.system/watson/translate: Translate text`
 `    (params: translateFrom translateTo translateParam username password)`
 
