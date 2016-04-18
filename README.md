@@ -461,6 +461,7 @@ This time `/``whisk.system``/w``atson` package looks promising. Again, let’s s
 Enter the following in a terminal:
 
     $ wsk package get --summary /whisk.system/watson
+    
     package /whisk.system/watson: Actions for the Watson analytics APIs
        (params: username password)
      action /whisk.system/watson/translate: Translate text
