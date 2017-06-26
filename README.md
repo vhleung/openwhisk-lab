@@ -236,7 +236,7 @@ You can also create a *composite* action that chains together a sequence of acti
 This time we will use a set of actions that are shipped with OpenWhisk in a package called `/``whisk.system``/util`. One way to access the actions in this package is by binding to them (you could alternatively access the packages directly). Bindings create a reference to the given package in your namespace. The advantage is that they allow you to access actions by typing myUtil/actionName instead of /whisk.system/util/actionName every time.
 Just run the following command:
 
-    $ wsk package bind /whisk.system/util myUtil
+    $ wsk package bind /whisk.system/utils myUtil
     ok: created binding myUtil
 
 You now have access to the following actions:
